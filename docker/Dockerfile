@@ -44,6 +44,7 @@ COPY bashrc /etc/bash.bashrc
 RUN chmod a+rwx /etc/bash.bashrc
 
 RUN ${PIP} install jupyter matplotlib
+RUN ${PIP} install pandas
 RUN ${PIP} install jupyter_http_over_ws
 RUN ${PIP} install ipython==7.9.0
 RUN jupyter serverextension enable --py jupyter_http_over_ws
