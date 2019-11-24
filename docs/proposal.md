@@ -54,3 +54,16 @@ We would like to try out and experiment with a second approach as well and combi
 Since records are timestamped we might be able to use it to our advantage and use it as additional feature in our models.
 
 We will implement the recommendation system in Python, with the neural network most probably programmed and trained with the Tensorflow framework and using other permitted libraries.
+
+
+
+
+15 15 21 36					15 15 21 36
+11 X  X  X         ->		11 69 21 69
+1  X  25 8					1  0  25 8
+
+15 15 21 36
+11 7  16 19
+1  0  25 8
+
+
